@@ -1,0 +1,5 @@
+module Clibuv [system] {
+  header "/usr/include/Clibuv.h"
+  link "Clibuv"
+  export *
+}
