@@ -11,8 +11,7 @@ let package = Package(
     targets: [
         .systemLibrary(
             name: "Clibuv",
-            pkgConfig: "libuv",
-            providers: [.brew(["libuv"]), .apt(["libuv-dev"])]
+            pkgConfig: "libuv"
         )
     ]
 )
